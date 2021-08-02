@@ -79,12 +79,6 @@ class M_login extends CI_Model
         $this->db->delete('transaksi');
     }
 
-    public function update_datatransaksi($where, $data, $tablec)
-    {
-        $this->db->where($where);
-        $this->db->update($tablec, $data);
-    }
-
     function insert_datatransaksi($data)
     {
         return  $this->db->insert($this->tablec, $data);
