@@ -259,29 +259,4 @@ class Login extends CI_Controller
         $this->m_login->hapus_transaksi($id_pesanan);
         redirect('login/transaksi');
     }
-
-
-    public function updateTransaksi()
-    {
-        $id_pesanan = $this->input->post('id_pesanan');
-        $nama_pesanan = $this->input->post('nama_pesanan');
-
-
-
-
-        $data = array(
-
-            'nama_pesanan'        => $nama_pesanan
-
-        );
-
-        $where = array(
-            'id_pesanan'  => $id_pesanan
-
-        );
-        // var_dump($where);
-        // die;
-        $this->m_login->update_datatransaksi($where, $data, 'transaksi');
-        redirect('login/transaksi');
-    }
 }
