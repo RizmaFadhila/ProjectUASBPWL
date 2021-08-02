@@ -95,6 +95,7 @@
             <table class="table">
                 <thead class="thead-light">
                     <tr>
+
                         <th scope="col">No</th>
                         <th scope="col">Nama Customer</th>
                         <th scope="col">Nama Menu</th>
