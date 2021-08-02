@@ -35,7 +35,9 @@
         </div>
         <div>
             <div class="nav navbar-nav navbar-right">
-                <a class="nav-item nav-link bg-primary" href="<?php echo base_url('login/logout'); ?>">Logout</a>
+                <a class="nav-item nav-link bg-primary" href="<?php echo base_url('login/logout'); ?>">
+                    <font color="fffff">Logout
+                </a></font>
             </div>
     </nav>
     <div class="jumbotron jumbotron-fluid jumbotron-drak bg-dark">
@@ -97,7 +99,7 @@
                         <th scope="col">Nama Customer</th>
                         <th scope="col">Nama Menu</th>
                         <th scope="col">Tanggal</th>
-                        <th scope="col">Harga</th>
+                        <th scope="col">Jumlah</th>
                         <th scope="col">Total Harga</th>
                         <th> Aksi </th>
                     </tr>
