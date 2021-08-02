@@ -12,23 +12,30 @@
 <body background="../image/D.jpg">
   <nav class="navbar navbar-expand-lg navbar-light bg-secondary fixed-top">
     <a class="navbar-brand" href="#">
-      <font color="fffff">Navbar</font>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link " href=" <?php echo base_url('login/home'); ?>">Home</font></a>
-        <a class="nav-item nav-link" href="<?php echo base_url('login/menu'); ?>">Menu</font></a>
-        <a class="nav-item nav-link" href="<?php echo base_url('login/meja'); ?>">Meja</font></a>
-        <a class="nav-item nav-link" href="<?php echo base_url('login/transaksi'); ?>">Transaksi</font></a>
+            <div class="navbar-nav">
+                <a class="nav-item nav-link " href=" <?php echo base_url('login/home'); ?>">
+                    <font color="fffff">Home</font>
+                </a>
+                <a class="nav-item nav-link" href="<?php echo base_url('login/menu'); ?>">
+                    <font color="fffff">Menu</font>
+                </a>
+                <a class="nav-item nav-link" href="<?php echo base_url('login/meja'); ?>">
+                    <font color="fffff">Meja</font>
+                </a>
+                <a class="nav-item nav-link" href="<?php echo base_url('login/transaksi'); ?>">
+                    <font color="fffff">Transaksi</font>
+                </a>
 
-      </div>
+            </div>
     </div>
     <div>
       <div class="nav navbar-nav navbar-right">
-        <a class="nav-item nav-link bg-primary" href="<?php echo base_url('login/logout'); ?>">Logout</a>
+      <a class="nav-item nav-link bg-primary" href="<?php echo base_url('login/logout'); ?>"><font color="fffff">Logout</a></font>
       </div>
   </nav>
   <div class="jumbotron jumbotron-fluid jumbotron-drak bg-dark">
